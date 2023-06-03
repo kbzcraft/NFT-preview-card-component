@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    display:grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: hsl(215, 51%, 70%);
+    background: hsl(217, 54%, 11%);
+    color:hsl(0, 0%, 100%);
+}
+.container{
+    max-width: 20rem;
+    gap: 1rem;
+    width: 92vw;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1.5rem;
+    background: hsl(216, 50%, 16%);
+    border-radius:1rem;
+}
+
+img.nft-art{
+    width: 100%;
+    max-width: calc(20rem - 3rem);
+    border-radius:1rem;
+}
+section.details{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    gap: 1rem;
+}
+.post-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-details div, .creator-details{
+    display: flex;
+    align-items:center;
+    gap:.265rem;
+}
+.creator-details{
+    gap:.85rem;
+    margin-bottom: .65rem;
+}
+.creator-details span, .post-details span{
+    color: hsl(215, 51%, 70%);
+}
+.post-details strong{
+    color:hsl(178, 100%, 50%);
+}
+.line{
+    width:100%;
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+}
+
+.creator-img{
+    max-width: 2rem;
+    aspect-ratio: 1/1;
+}
